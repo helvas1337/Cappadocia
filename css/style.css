@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+@font-face {
+	font-family: 'Balqis';
+	src: url('../fonts/Balqis.eot');
+	src: local('☺'), url('../fonts/Balqis.woff') format('woff'), url('../fonts/Balqis.ttf') format('truetype'), url('../fonts/Balqis.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 21px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.title {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 96px;
+    color: #E2AB3F;
+}
+
+.sub-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+}
+
+.header {
+    background: url(../img/header.jpg)  left  no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+
+.menu__list-item {
+    display: inline-block;
+}
+
+.menu__list-item + .menu__list-item {
+    margin-left: 52px;
+}
+
+.menu__list-link:hover {
+    color: white;
+}
+
+.header__phone {
+    padding-left: 40px;
+    position: relative;
+}
+
+.header__phone:hover {
+    color: white;
+}
+
+.header__phone::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/icons/phone.svg);
+    height: 30px;
+    width: 30px;
+    left: 0;
+}
+
+.header__title {
+    margin-top: 152px;
+    font-size: 250px;
+    color: black;
+    text-align: center;
+    line-height: 334px;
+}
+
+.header__sub-title {
+    display: block;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: right;
+    margin-top: -66px;
+    margin-right: 85px;
+}
+
+/* https://www.goodfon.ru/wallpaper/turtsiia-goreme-national-park-cappadocia-gory-dolina-polia-d.html - картинки */
