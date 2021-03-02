@@ -29,6 +29,11 @@ body {
     padding: 0 15px;
 }
 
+.section {
+    margin: 200px auto;
+    max-width: 1920px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -50,6 +55,8 @@ a {
     font-size: 24px;
     line-height: 28px;
     color: black;
+    display: block;
+    margin: 100px 0 0 0;
 }
 
 .header {
@@ -110,5 +117,185 @@ a {
     margin-top: -66px;
     margin-right: 85px;
 }
+
+.fairy-tail__sub-title {
+    margin-top: 28px;
+    margin-left: 180px;
+}
+
+.slider-img {
+    width: 960px;
+    height: 600px;
+}
+
+.fairy-tail__slider {
+    width: 50%;
+    z-index: 3;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 0;
+    z-index: 5;
+}
+
+.slick-next {
+    right: 0;
+    z-index: 5;
+}
+
+.fairy-tail__inner {
+    position: relative;
+}
+
+.fairy-tail__conteiner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fairy-tail__body {
+    width: 50%;
+    margin-left: auto;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.fairy-tail__text-title {
+    font-style: italic;
+}
+
+.text-items li {
+    color: #E2AB3F;
+}
+
+.text-items span {
+    color: black;
+}
+
+.our-trip__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.our-trip__sub-title {
+    margin-top: 27px;
+    margin-left: 243px;
+}
+
+.our-trip__inner {
+    position: relative;
+}
+
+.our-trip__conteiner {
+    max-width: 1230px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+}
+
+.our-trip__body {
+    width: 50%;
+    margin-right: auto;
+    padding-right: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.our-trip__title {
+    margin: 0;
+}
+
+.our-trip__items-title {
+    font-style: italic;
+    margin-bottom: -50px;
+    margin-left: 43px;
+}
+
+.our-trip__btn {
+    width: 280px;
+    padding: 11px 55px;
+    border: 1px solid #E2AB3F;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.our-trip__slider {
+    width: 50%;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* https://www.goodfon.ru/wallpaper/turtsiia-goreme-national-park-cappadocia-gory-dolina-polia-d.html - картинки */
