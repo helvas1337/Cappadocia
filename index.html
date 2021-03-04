@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cappadocia</title>
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -122,32 +123,36 @@
         <div class="container">
             <h3 class="hotel__title title">
                 Hotel
-            <span class="sub-title">Sultan Cave Suites</span>
+            <span class="hotel__sub-title sub-title">Sultan Cave Suites</span>
             </h3>
 
             <div class="hotel__inner">
                 <div class="hotel__poster">
                     <img class="poster" src="img/hotel/1.png" alt="">
                 </div>
-
                 <div class="hotel__content">
-                    <div class="hotel__text">
-                        <p class="hotel__paragraph">
+                        <p class="hotel__text">
                             В этом уникальном отеле, расположенном на вершине холма Айдынлы, вы можете забронировать высеченные в скале номера, 
                             обставленные антикварной мебелью со всей Турции. С солнечной террасы отеля открывается прекрасный панорамный вид на 
                             Национальный парк Гереме.
                         </p>
-                        <p class="hotel__paragraph">
+                        <p class="hotel__text">
                             Большинство номеров отеля Sultan Cave Suites высечены в скале, что обеспечивает прохладу и покой. 
                             Все номера оборудованы гостиной зоной и современной ванной комнатой. В большинстве из них есть собственная терраса или балкон.
                         </p>
-                        <p class="hotel__paragraph">
+                        <p class="hotel__text">
                             Отель Cave Suites Sultan располагает изысканным рестораном, где подают фирменные блюда региона Каппадокии. 
                             После ужина, пройдя на террасу, вы сможете заказать напиток и полюбоваться закатом солнца над деревней.
                         </p>
-                    </div>
                     <div class="hotel__gallery">
-
+                        <a href="img/hotel/2.jpg" data-fancybox="images" data-width="2048" data-height="1365">
+                            <img class="hotel__gallery-link" src="img/hotel/2.jpg" alt=""></a>
+                        <a href="img/hotel/3.jpg"data-fancybox="images" data-width="2048" data-height="1365">
+                            <img class="hotel__gallery-link" src="img/hotel/3.jpg" alt=""></a>
+                        <a href="img/hotel/4.jpg"data-fancybox="images" data-width="2048" data-height="1365">
+                            <img class="hotel__gallery-link" src="img/hotel/4.jpg" alt=""></a>    
+                        <a href="img/hotel/5.jpg"data-fancybox="images" data-width="2048" data-height="1365">
+                            <img class="hotel__gallery-link" src="img/hotel/5.jpg" alt=""></a> 
                     </div>
                 </div>
             </div>
@@ -157,38 +162,98 @@
     </section>
 
     <section class="price section">
-        <h3 class="price__title title">
-            Price
-        <span class="sub-title">Стоимость услуг</span>
-        </h3>
-
-        <div class="price__content">
-            <div class="price__content-left">
-                <ul class="price__content-items">
-                    <li class="price__content-item">Включено</li>
-                    <li class="price__content-item">Проживание в двухместном номере в отеле с завтраками</li>
-                    <li class="price__content-item">Индивидуальный трансфер для нашей группы из Анкары и обратно</li>
-                    <li class="price__content-item">Экскурсия на Солёное озеро</li>
-                    <li class="price__content-item">Индивидуальная дневная экскурсия по лучшим местам Каппадокии с личным транспортом</li>
-                    <li class="price__content-item">Фотосессия с профессиональным фотографом для каждой участницы
-                        (Несколько локаций, 5 лучших фото в обработке фотографа и весь материал (до 100 фотографий)</li>
-                </ul>
+        <div class="container">
+            <h3 class="price__title title">
+                Price
+            <span class="price__sub-title sub-title">Стоимость услуг</span>
+            </h3>
+            <div class="price__content">
+                <div class="price__content-on">
+                    <div class="price__content-title">Включено</div>
+                    <ul class="price__content-items">
+                        <li><span>Проживание в двухместном номере в отеле с завтраками</span></li>
+                        <li><span>Индивидуальный трансфер для нашей группы из Анкары и обратно</span></li>
+                        <li><span>Экскурсия на Солёное озеро</span></li>
+                        <li><span>Индивидуальная дневная экскурсия по лучшим местам Каппадокии с личным транспортом</span></li>
+                    </ul>
+                </div>
+                <div class="price__content-off">
+                    <div class="price__content-title">Не включено</div>
+                    <ul class="price__content-items">
+                        <li><span>Авиа Киев-Анкара-Киев (140-170$)</span></li>
+                        <li><span>Обеды и ужины (150$ на поездку)</span></li>
+                        <li><span>Воздушный шар 200$</span></li>
+                        <li><span>Дополнительные экскурсии (по желанию) от 30$</span></li>
+                    </ul>
+                </div>
             </div>
-            <div class="price__content-right">
-                <ul class="price__content-items">
-                    <li class="price__content-item">Не включено</li>
-                    <li class="price__content-item">Авиа Киев-Анкара-Киев (140-170$)</li>
-                    <li class="price__content-item">Обеды и ужины (150$ на поездку)</li>
-                    <li class="price__content-item">Воздушный шар 200$</li>
-                    <li class="price__content-item">Дополнительные экскурсии (по желанию) от 30$</li>
-                </ul>
+        </div> 
+        <img class="ballon" src="img/ballon.png">  
+    </section>
+
+    <section class="contacts section">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__content">
+                    <div class="contacts__info">
+                        <div class="contacts__date">
+                            1.07.2020
+                            <span class="contacts__date-text">Ближайшая дата тура</span>
+                        </div>
+                        <div class="contacts__price">
+                            490$
+                            <span class="contacts__price-text">Стоимость</span>
+                        </div>
+                    </div>
+                    <form class="contacts__form">
+                        <h5 class="contacts__form-title">Оставить заявку или задать вопрос</h5>
+                        <input class="contacts__form-input" type="text" placeholder="Имя">
+                        <input class="contacts__form-input" type="text" placeholder="Телефон">
+                        <button class="contacts__form-btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </form>
+                </div>
+                <img class="contacts__img" src="img/price/2.jpg">
             </div>
         </div>
-        <div class="price__form"></div>
     </section>
+
+    <section class="footer">
+        <div class="container footer__position">
+            <div class="footer__contacts">
+                <div class="footer__contacts-content">
+                    <div class="footer__contacts-title">
+                        Contacts
+                    </div>
+                    <a class="footer__contacts-number" href="tel:+380665557776" >
+                        +38(066)555-777-6
+                    </a> 
+                    <br>
+                    <a class="footer__contacts-mail" href="mailto:сappadocia.tours@gmail.com">
+                        сappadocia.tours@gmail.com
+                    </a>
+                    <div class="footer__contacts-icons">
+                        <a href="https://www.facebook.com/jv.russia/" target="_blank">
+                            <img src="img/icons/facebook.svg">
+                        </a>
+                        <a href="https://www.instagram.com/?hl=ru" target="_blank">
+                            <img src="img/icons/instagram.svg">
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="img/icons/youtube.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__title">
+                Dreams come true
+            </div>
+        </div> 
+    </section>
+
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
 
