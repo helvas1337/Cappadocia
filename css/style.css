@@ -71,6 +71,14 @@ a {
     font-weight: 400;
     font-size: 250px;
     line-height: 334px;
+   
+   
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
 }
 
 .header__sub-title {
@@ -79,6 +87,10 @@ a {
     font-weight: 300;
     font-size: 56px;
     line-height: 66px;
+    display: block;
+    text-align: right;
+    margin-top: -66px;
+    margin-right: 85px;
 }
 
 .header__menu {
@@ -120,23 +132,6 @@ a {
     height: 30px;
     width: 30px;
     left: 0;
-}
-
-.header__title {
-    margin-top: 152px;
-    font-size: 250px;
-    color: black;
-    text-align: center;
-    line-height: 334px;
-}
-
-.header__sub-title {
-    display: block;
-    font-size: 56px;
-    line-height: 66px;
-    text-align: right;
-    margin-top: -66px;
-    margin-right: 85px;
 }
 
 .fairy-tail__sub-title {
@@ -436,7 +431,7 @@ a {
     border: 1px solid #E2AB3F;
     background-color: transparent;
     font-size: 17px;
-    padding: 12px 45px;
+   
     line-height: 28px;
     cursor: pointer;
     outline: none;
@@ -555,7 +550,7 @@ svg {
         display: none;
     }
     .section {
-        margin: 200px auto;
+        margin: 100px auto;
         padding: 0;
     }
 }
@@ -653,13 +648,15 @@ svg {
     .hotel__title {
         margin: 80px 0 50px 60px;
     }
+    .header__title {
+        height: 50vh;
+    }
 }
 
 
 @media (max-width:1050px) {
     .header__title {
         font-size: 175px;
-        margin-top: 120px;
     }
     .header__sub-title {
         font-size: 35px;
@@ -684,7 +681,7 @@ svg {
         width: 245px;
         height: 40px;
         font-size: 15px;
-        padding: 7px 45px;
+        padding: 0 45px;
     }
     .footer__title {
         display: none;
@@ -695,7 +692,6 @@ svg {
 @media (max-width:970px) {
     .header__title {
         font-size: 175px;
-        margin-top: 120px;
     }
     .header__sub-title {
         font-size: 35px;
@@ -838,12 +834,6 @@ svg {
     }
     .price__content {
         align-items: center;
-    }
-}
-
-@media (max-width:768px) {
-    hotel__title {
-        margin: 80px 0 50px 0;
     }
 }
 
@@ -1019,7 +1009,7 @@ svg {
         width: 210px;
         height: 35px;
         font-size: 12px;
-        padding: 3px 45px;
+        padding: 0 45px;
     }
     a {
         font-size: 15px;
@@ -1047,6 +1037,24 @@ svg {
     }
     .footer__contacts {
         width: 100%;
+    }
+}
+
+@media (max-width:2800px) {
+    .hotel__gallery-link {
+        width: 250px;
+    }
+    .contacts__form-input {
+        width: 245px;
+        height: 33px;
+    }
+    .contacts__form-btn {
+        width: 195px;
+        height: 33px;
+        font-size: 10px;
+    }
+    .header__menu {
+        padding: 25px 49px 0;
     }
 }
 
